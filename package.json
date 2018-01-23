@@ -1,0 +1,33 @@
+{
+  "name": "GitBrowser",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "art": "^0.10.1",
+    "d3": "^4.12.2",
+    "d3-shape": "^1.2.0",
+    "emojify-tag": "^1.0.0",
+    "github-markdown": "^3.2.0",
+    "react": "16.0.0",
+    "react-native": "^0.51.0",
+    "react-native-elements": "^0.18.5",
+    "react-native-gesture-handler": "^1.0.0-alpha.39",
+    "react-native-oauth": "^2.2.0",
+    "react-native-simple-markdown": "^1.0.60-rc.3",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
